@@ -322,24 +322,24 @@ a.i-buttons {
     font-weight: lighter;
 }
 
-.multiple {
+.images-slick {
     padding: 0;
 }
 
-.multiple img {
-    width: 100%;
+.images-slick img {
+    width: 200px;
 }
 
-.multiple div {
+.images-slick div {
     margin: 0 5px;
 }
 
-.multiple .slick-next {
+.images-slick .slick-next {
     right: 17px;
     z-index: 100;
 }
 
-.multiple .slick-prev {
+.images-slick .slick-prev {
     left: 23px;
     z-index: 100;
 }
