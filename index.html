@@ -1,124 +1,140 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Happy Hack</title>
 </head>
+
 <body>
-   <div id="header">
-       <div class="main-visual">
-        <nav>
-           <ul id="navi">
-               <li><a href="#introduction-title">Introduction</a></li>
-               <li><a href="#course-title">Course</a></li>
-               <li><a href="#images-title">Images</a></li>
-               <li><a href="#access-title">Access</a></li>
-           </ul> 
-        </nav>
-           <img src="logo.png" width="850" id="logo">
+    <div id="header">
+        <div class="main-visual">
+            <nav>
+                <ul id="navi">
+                    <li><a href="#introduction-title">Introduction</a></li>
+                    <li><a href="#course-title">Course</a></li>
+                    <li><a href="#images-title">Images</a></li>
+                    <li><a href="#access-title">Access</a></li>
+                </ul>
+            </nav>
+            <img src="logo.png" width="850" id="logo">
             <div class="main-title">
                 <h1>We are Web Designers.</h1>
             </div>
         </div>
-   </div>
-   
+    </div>
+
     <div class="introductions">
         <h1 class="title" id="introduction-title">Introduction</h1>
-        
-    <div class="introduction" id="introduction1">
-        <img src="introduction_001.jpg" alt="" width="490">
-        <div class="right-box">
-            <p>Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環<br>
-            境を提供しています。<br>
-            特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に<br>
-            活動しています。<br>
-            誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を<br>
-            踏み出すお手伝いをさせていただきます。</p>
-            <a href="introduction-title" class="i-buttons" id="button1">会員情報</a>
+
+        <div class="introduction" id="introduction1">
+            <img src="introduction_001.jpg" alt="" width="490">
+            <div class="right-box">
+                <p>Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環<br>
+                    境を提供しています。<br>
+                    特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に<br>
+                    活動しています。<br>
+                    誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を<br>
+                    踏み出すお手伝いをさせていただきます。</p>
+                <a href="introduction-title" class="i-buttons" id="button1">会員情報</a>
+            </div>
         </div>
-    </div>
-        
+
         <div class="introduction" id="introduction2">
             <div class="left-box">
                 <p>Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。<br>
-                コースは全部で7つ準備をしています。<br>
-                WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽し<br>
-                みいただけます。<br>
-                自分の想いをカタチにして発信することをぜひこの場で体験してみてください。<br>
-                世界が変わって見えるかもしれません。</p>
+                    コースは全部で7つ準備をしています。<br>
+                    WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽し<br>
+                    みいただけます。<br>
+                    自分の想いをカタチにして発信することをぜひこの場で体験してみてください。<br>
+                    世界が変わって見えるかもしれません。</p>
                 <a href="#introduction-title" class="i-buttons" id="button2">会員情報</a>
             </div>
             <img src="introduction_002.jpg" alt="" width="490">
         </div>
     </div>
-    
+
     <div class="course">
-       
+
         <h1 class="title" id="course-title">Course</h1>
-        
-    <div class="course-box">
-       <div class="box1">
-            <div class="course-item" id="item1">
-                <p><img src="html.png" width="100"></p>
-                <p>HTMLコース</p>
-                <p><a href="#course-title" id="button3">このコースを受ける</a></p>
+
+        <div class="course-box">
+            <div class="box1">
+                <div class="course-item" id="item1">
+                    <p><img src="html.png" width="100"></p>
+                    <p>HTMLコース</p>
+                    <p><a href="#course-title" id="button3">このコースを受ける</a></p>
+                </div>
+
+                <div class="course-item">
+                    <p><img src="css.png" width="90" id="css"></p>
+                    <p>CSSコース</p>
+                    <p><a href="#course-title" id="button4">このコースを受ける</a></p>
+                </div>
+
+                <div class="course-item">
+                    <p><img src="unity.png" width="100" id="unity"></p>
+                    <p>Unityコース</p>
+                    <p><a href="#course-title" id="button5">このコースを受ける</a></p>
+                </div>
+
+                <div class="course-item">
+                    <p><img src="ruby.png" width="100" id="ruby"></p>
+                    <p>Rubyコース</p>
+                    <p><a href="#course-title" id="button6">このコースを受ける</a></p>
+                </div>
             </div>
-        
-            <div class="course-item">
-                <p><img src="css.png" width="90" id="css"></p>
-                <p>CSSコース</p>
-                <p><a href="#course-title" id="button4">このコースを受ける</a></p>
+
+            <div class="box2">
+                <div class="course-item">
+                    <p><img src="js.png" width="100" id="js"></p>
+                    <p>JavaScriptコース</p>
+                    <p><a href="#course-title" id="button7">このコースを受ける</a></p>
+                </div>
+
+                <div class="course-item">
+                    <p><img src="swift.png" width="100" id="swift"></p>
+                    <p>Swiftコース</p>
+                    <p><a href="#course-title" id="button8">このコースを受ける</a></p>
+                </div>
+
+                <div class="course-item">
+                    <p><img src="go.png" width="100" id="go"></p>
+                    <p>Goコース</p>
+                    <p><a href="#course-title" id="button9">このコースを受ける</a></p>
+                </div>
             </div>
-        
-            <div class="course-item">
-                <p><img src="unity.png" width="100" id="unity"></p>
-                <p>Unityコース</p>
-                <p><a href="#course-title" id="button5">このコースを受ける</a></p>
-            </div>
-        
-            <div class="course-item">
-                <p><img src="ruby.png" width="100" id="ruby"></p>
-                <p>Rubyコース</p>
-                <p><a href="#course-title" id="button6">このコースを受ける</a></p>
-            </div>
         </div>
-        
-        <div class="box2">
-        <div class="course-item">
-            <p><img src="js.png" width="100" id="js"></p>
-            <p>JavaScriptコース</p>
-            <p><a href="#course-title" id="button7">このコースを受ける</a></p>
-        </div>
-        
-        <div class="course-item">
-            <p><img src="swift.png" width="100" id="swift"></p>
-            <p>Swiftコース</p>
-            <p><a href="#course-title" id="button8">このコースを受ける</a></p>
-        </div>
-        
-        <div class="course-item">
-            <p><img src="go.png" width="100" id="go"></p>
-            <p>Goコース</p>
-            <p><a href="#course-title" id="button9">このコースを受ける</a></p>
-        </div>
-        </div>
+
     </div>
-        
-    </div>
-    
+
     <div class="images">
         <h1 class="title" id="images-title">Images</h1>
+        <div class="images-slick">
+            <div><img src="hero.jpg" alt=""></div>
+            <div><img src="background2.jpg" alt=""></div>
+            <div><img src="background3.jpg" alt=""></div>
+            <div><img src="background4.jpg" alt=""></div>
+            <div><img src="background5.jpg" alt=""></div>
+        </div>
     </div>
-    
+
     <div class="access">
         <h1 class="title" id="access-title">Access</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.312953947735!2d135.4902599147674!3d34.69728569090967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1582093759055!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
-    
+
     <div class="footer">
         <p>&copy;2019 Happy Hack Inc.</p>
     </div>
-    
+
+
+
 </body>
+
 </html>
