@@ -330,7 +330,7 @@ a.i-buttons {
 /*左右の矢印の位置を変える*/
 .slick-next {
     right: 20px;
-    z-index: 99;
+    z-index: 100;
 }
 .slick-prev {
      left: 15px;
@@ -339,10 +339,10 @@ a.i-buttons {
 /*スライド数のドットの色を変える*/
 .slick-dots li.slick-active button:before,
 .slick-dots li button:before {
-    color: #fff;
+    color: #000;
 }
 /*スライド画像の横幅可変*/
-img {
+.slider img {
     max-width: 100%;
      height: auto;
 }
