@@ -136,7 +136,9 @@ a.i-buttons {
 .course {
     background-color: #BAD5F5;
     height: 1000px;
-/*    overflow: hidden;*/
+    overflow: hidden;
+    position:relative;
+    z-index:1;
 }
 
 .course h1 {
@@ -323,9 +325,18 @@ a.i-buttons {
     font-weight: lighter;
 }
 
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+
+/*
 #particles-js {
 z-index: -1;
 }
+*/
 
 /*左右の矢印の色を変える*/
 .slick-prev:before,
