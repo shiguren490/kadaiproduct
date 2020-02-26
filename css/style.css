@@ -287,7 +287,7 @@ a.i-buttons {
 
 .images h1 {
     font-size: 53px;
-    margin: 40px;
+    margin: 30px;
 }
 
 .access {
@@ -333,21 +333,20 @@ z-index: -1;
 }
 */
 
-#slick {
-    margin-bottom: 50px;
-}
-
 .slider {
-    margin: 30px auto;
     width: 80%;
+    margin: 100px auto;
 }
 
-.slider img {
+.slick-slide {
+    margin: 0 auto;
+}
+
+.slick-slide img {
     height: auto;
     width: 100%;
 }
 
-/*slick setting*/
 .slick-prev:before,
 .slick-next:before {
     color: #000;
@@ -357,7 +356,6 @@ z-index: -1;
     bottom: -30px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 /*ふわっと表示*/
