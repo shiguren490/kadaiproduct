@@ -21,13 +21,6 @@ header {
     text-align: center;
 }
 
-@media(max-width:450px) {
-    .main-title img {
-        width: 70vw;
-        margin: auto;
-    }
-}
-
 .main-title {
     position: absolute;
     top: 50%;
@@ -40,33 +33,15 @@ header {
     text-align: center;
     margin-top: 30px;
     color: #fff;
-    font-family: Futura;
+    font-family: 'Futura';
     font-style: italic;
     font-weight: 100;
-}
-
-@media(max-width:450px) {
-    .main-title p {
-        font-size: 100%;
-        text-align: center;
-        margin-top: 20px;
-        color: #fff;
-        font-family: Futura;
-        font-style: italic;
-        font-weight: 100;
-    }
 }
 
 nav {
     position: absolute;
     right: 0px;
     top: 0px;
-}
-
-@media (max-width: 450px) {
-    nav {
-        display: none;
-    }
 }
 
 ul {
@@ -133,14 +108,6 @@ h1 {
     padding: 40px;
     color: #3D5CDB;
 }
-
-@media(max-width: 450px) {
-    h1 {
-        font-size: 200%;
-        padding-bottom: 20px;
-    }
-}
-
 
 section #introduction {
     display: flex;
@@ -221,80 +188,6 @@ section #introduction {
     box-shadow: 0 2px 15px 2px rgba(133, 140, 142, 0.4);
 }
 
-@media(max-width:450px) {
-    .introduction {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 30px;
-        flex-wrap: wrap;
-        font-size: 13px;
-    }
-
-    .introduction img {
-        width: 100%;
-        object-fit: contain;
-    }
-
-    .right-box {
-        width: 100%;
-        margin-bottom: 20px;
-        line-height: 2;
-    }
-
-    .right-box p {
-        width: 90%;
-        margin: 0 auto;
-        font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif;
-    }
-
-    .right-box a {
-        display: block;
-        margin: 30px auto;
-        text-decoration: none;
-        width: 170px;
-        height: 40px;
-        background-color: #3D5CDB;
-        color: #ffffff;
-        border-radius: 12px;
-        text-align: center;
-        line-height: 40px;
-        font-size: 15px;
-        font-weight: bold;
-    }
-
-    .left-box {
-        width: 100%;
-        margin-bottom: 20px;
-        line-height: 2;
-    }
-
-    .left-box p {
-        width: 90%;
-        margin: 0 auto;
-        font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif;
-    }
-
-    .left-box a {
-        display: block;
-        margin: 30px auto;
-        text-decoration: none;
-        width: 170px;
-        height: 40px;
-        background-color: #ffbf00;
-        color: #ffffff;
-        border-radius: 12px;
-        text-align: center;
-        line-height: 40px;
-        font-size: 15px;
-        font-weight: bold;
-    }
-
-    .introduction2 {
-        flex-wrap: wrap-reverse;
-    }
-}
-
 #courses {
     background-color: rgba(186, 213, 245, 0.6);
     z-index: 1;
@@ -318,27 +211,6 @@ section #introduction {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-
-@media (min-width: 768px) {
-    .course-box {
-        width: 750px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-}
-
-@media (min-width: 1200px) {
-    .course-box {
-        width: 1170px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
 }
 
 .course-box {
@@ -412,68 +284,6 @@ section #introduction {
     box-shadow: 0 2px 15px 2px rgba(133, 140, 142, 0.4);
 }
 
-@media(max-width: 450px) {
-
-    .course_info {
-        width: 100px;
-        height: 180px;
-        background-color: #ffffff;
-        margin-top: 20px;
-        border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        box-shadow: 0 1px 3px rgba(106, 137, 152, 0.2);
-    }
-
-    .course_img {
-        width: 90px;
-        height: 90px;
-        margin: 0 auto;
-        position: relative;
-    }
-
-    .course_img img {
-        width: 50px;
-        object-fit: contain;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: 0 auto;
-        margin-top: 5px;
-    }
-
-    .course_info h2 {
-        font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, sans-serif;
-        font-size: 10px;
-        text-align: center;
-        margin: 10px;
-        margin-top: 80px;
-        color: #183c61;
-    }
-
-    .course_info a {
-        display: block;
-        margin: 15px auto;
-        text-decoration: none;
-        width: 100px;
-        height: 40px;
-        background-color: #ffbf00;
-        color: #ffffff;
-        border-radius: 20px;
-        text-align: center;
-        line-height: 40px;
-        font-size: 10px;
-        font-weight: bold;
-    }
-
-    .course_info a:hover {
-        box-shadow: 0 2px 15px 2px rgba(133, 140, 142, 0.4);
-    }
-}
-
-
 .title {
     text-align: center;
     font-family: 'Futura';
@@ -483,36 +293,12 @@ section #introduction {
     color: #3D5CDB;
 }
 
-@media(max-width: 450px) {
-    .title {
-        font-size: 200%;
-        padding-bottom: 20px;
-    }
-}
-
 .access {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
-}
-
-@media(max-width: 450px) {
-    .map {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-top: 75%;
-    }
-
-    .map iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
 }
 
 .footer p {
@@ -601,5 +387,216 @@ z-index: -1;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
+    }
+}
+
+@media(max-width:450px) {
+    .main-title img {
+        width: 70vw;
+        margin: auto;
+    }
+}
+
+@media(max-width: 450px) {
+    .title {
+        font-size: 200%;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width:450px) {
+    .main-title p {
+        font-size: 100%;
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+        font-family: 'Futura';
+        font-style: italic;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 450px) {
+    nav {
+        display: none;
+    }
+}
+
+@media(max-width:450px) {
+    .introduction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+
+    .introduction img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .right-box {
+        width: 100%;
+        margin-bottom: 20px;
+        line-height: 2;
+    }
+
+    .right-box p {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'MS PGothic', sans-serif;
+    }
+
+    .right-box a {
+        display: block;
+        margin: 30px auto;
+        text-decoration: none;
+        width: 170px;
+        height: 40px;
+        background-color: #3D5CDB;
+        color: #ffffff;
+        border-radius: 12px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .left-box {
+        width: 100%;
+        margin-bottom: 20px;
+        line-height: 2;
+    }
+
+    .left-box p {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'MS PGothic', sans-serif;
+    }
+
+    .left-box a {
+        display: block;
+        margin: 30px auto;
+        text-decoration: none;
+        width: 170px;
+        height: 40px;
+        background-color: #ffbf00;
+        color: #ffffff;
+        border-radius: 12px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .introduction2 {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media(max-width: 450px) {
+    h1 {
+        font-size: 200%;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .course-box {
+        width: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1200px) {
+    .course-box {
+        width: 1170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .course_info {
+        width: 100px;
+        height: 180px;
+        background-color: #ffffff;
+        margin-top: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 1px 3px rgba(106, 137, 152, 0.2);
+    }
+
+    .course_img {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .course_img img {
+        width: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    .course_info h2 {
+        font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', sans-serif;
+        font-size: 10px;
+        text-align: center;
+        margin: 10px;
+        margin-top: 80px;
+        color: #183c61;
+    }
+
+    .course_info a {
+        display: block;
+        margin: 15px auto;
+        text-decoration: none;
+        width: 100px;
+        height: 40px;
+        background-color: #ffbf00;
+        color: #ffffff;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .course_info a:hover {
+        box-shadow: 0 2px 15px 2px rgba(133, 140, 142, 0.4);
+    }
+}
+
+@media(max-width: 450px) {
+    .map {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 75%;
+    }
+
+    .map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 }
